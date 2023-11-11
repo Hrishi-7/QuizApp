@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196159296264",
+    "project_id": "quiz-app-656d1",
+    "storage_bucket": "quiz-app-656d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196159296264:android:ba97791dc3d7178ad152bd",
+        "android_client_info": {
+          "package_name": "com.hrishikesh.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgSaLij8KXnm139flpAJyUpiWSDVpClr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

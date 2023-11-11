@@ -27,6 +27,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
         android:background="@color/white"
+        android:visibility="visible"
         android:hint="Enter Your Name"
         app:layout_constraintBottom_toTopOf="@+id/etEmail"
         app:layout_constraintEnd_toEndOf="parent"
