@@ -17,6 +17,6 @@ class ScoreActivity : AppCompatActivity() {
 
         binding.tvScore.text = score.toString()
         binding.tvCircleScore.text = score.toString()
-        binding.progressBar.progress = score*20
+        binding.progressBar.progress = (score/5)*100
     }
 }

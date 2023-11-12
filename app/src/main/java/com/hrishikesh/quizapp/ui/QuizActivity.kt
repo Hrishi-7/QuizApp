@@ -91,6 +91,7 @@ class QuizActivity : AppCompatActivity() {
             startActivity(intent)
             Toast.makeText(this@QuizActivity, "Your Score $score", Toast.LENGTH_LONG).show()
         }else{
+            binding.progressBarQuestion.progress = (count/list.size)*100
             binding.tvQuestion.setText(list.get(count).question)
             binding.btnOption1.setText(list.get(count).option1)
             binding.btnOption2.setText(list.get(count).option2)
